@@ -1,0 +1,2 @@
+# Spotscan
+Food Analysis Platform
