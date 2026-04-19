@@ -1,8 +1,4 @@
 """
-Spotscan UI Module
-User interface components for the Spotscan application
+Scripts module for Spotscan
+Contains utility scripts for dataset management and setup
 """
-
-from .app import SpotscanApp, main
-
-__all__ = ['SpotscanApp', 'main']
