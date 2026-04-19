@@ -1,8 +1,8 @@
 """
-Corporate Tier Module
-Advanced features for business and government use
+Spotscan UI Module
+User interface components for the Spotscan application
 """
 
-from .corporate_features import CorporateManager, run_corporate_app
+from .app import SpotscanApp, main
 
-__all__ = ['CorporateManager', 'run_corporate_app']
+__all__ = ['SpotscanApp', 'main']
