@@ -1,10 +1,8 @@
 """
-Spotscan Core Module
-Contains core functionality for food analysis and computer vision
+Corporate Tier Module
+Advanced features for business and government use
 """
 
-from .food_detector import FoodDetector
-from .image_processor import ImageProcessor
-from .model_manager import ModelManager
+from .corporate_features import CorporateManager, run_corporate_app
 
-__all__ = ['FoodDetector', 'ImageProcessor', 'ModelManager']
+__all__ = ['CorporateManager', 'run_corporate_app']
