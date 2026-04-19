@@ -1,26 +1,10 @@
 """
-Spotscan Analysis Module
-Contains specialized analysis modules for different food properties
+Spotscan Core Module
+Contains core functionality for food analysis and computer vision
 """
 
-from .nutrition_analyzer import NutritionAnalyzer
-from .freshness_detector import FreshnessDetector
-from .ripeness_predictor import RipenessPredictor
-from .texture_analyzer import TextureAnalyzer
-from .color_analyzer import ColorAnalyzer
-from .shape_reconstructor import ShapeReconstructor
-from .ocr_analyzer import OCRAnalyzer
-from .liquid_analyzer import LiquidAnalyzer
-from .safety_checker import SafetyChecker
+from .food_detector import FoodDetector
+from .image_processor import ImageProcessor
+from .model_manager import ModelManager
 
-__all__ = [
-    'NutritionAnalyzer', 
-    'FreshnessDetector', 
-    'RipenessPredictor',
-    'TextureAnalyzer', 
-    'ColorAnalyzer', 
-    'ShapeReconstructor',
-    'OCRAnalyzer', 
-    'LiquidAnalyzer', 
-    'SafetyChecker'
-]
+__all__ = ['FoodDetector', 'ImageProcessor', 'ModelManager']
