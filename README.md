@@ -52,7 +52,7 @@ Spotscan is an advanced AI-powered food analysis platform that uses computer vis
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/spotscan.git
+git clone https://github.com/tentan2/spotscan.git
 cd spotscan
 
 # Install dependencies
